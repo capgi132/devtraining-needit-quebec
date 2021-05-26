@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_58872_needit.setAssignmentGroup</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>ABC</description>
+        <name>setAssignmentGroup</name>
+        <script><![CDATA[var setAssignmentGroup = Class.create();
+setAssignmentGroup.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	populateAssignmentGroup : function(){
+	var gs = new GlideRecord('cmdb_ci');
+	gs.addQuery('sys_id', this.getParamenter('sysparam_cmdb_ci'));
+		gs.query();
+		if(gs.next()){
+			return gs.support_group;
+		}
+		
+	
+},
+
+    type: 'setAssignmentGroup'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-20 10:08:27</sys_created_on>
+        <sys_id>6e95d26c2f903010bd0754492799b618</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>setAssignmentGroup</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_6e95d26c2f903010bd0754492799b618</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-20 10:29:17</sys_updated_on>
+    </sys_script_include>
+</record_update>

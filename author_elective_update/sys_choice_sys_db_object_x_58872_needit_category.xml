@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="x_58872_needit_category" table="sys_db_object" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>x_58872_needit_category</element>
+            <name>sys_db_object</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-20 13:45:07</sys_created_on>
+            <sys_id>e289cba42f543010bd0754492799b637</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_58872_needit_category</sys_name>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_choice_sys_db_object_x_58872_needit_category</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-20 13:45:07</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_58872_needit_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Parent 1</label>
+            <language>en</language>
+            <name>sys_db_object</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-20 13:45:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6a89cba42f543010bd0754492799b636</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-20 13:48:27</sys_updated_on>
+            <value>Parent 1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_58872_needit_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Parent 2</label>
+            <language>en</language>
+            <name>sys_db_object</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-20 13:45:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a898fa42f543010bd0754492799b616</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-20 13:45:07</sys_updated_on>
+            <value>Parent 2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_58872_needit_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Parent 3</label>
+            <language>en</language>
+            <name>sys_db_object</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-20 13:45:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a2898fa42f543010bd0754492799b618</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-20 13:45:07</sys_updated_on>
+            <value>Parent 3</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

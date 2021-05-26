@@ -18,7 +18,7 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Task" name="task">2d6db0c76d2220100acb70b3534330b5</super_class>
+        <super_class display_value="task" name="task">2d6db0c76d2220100acb70b3534330b5</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
@@ -36,6 +36,10 @@
         <update_access>false</update_access>
         <user_role display_value="x_58872_needit.thin_clients_user" name="x_58872_needit.thin_clients_user">175305142f903010bd0754492799b639</user_role>
         <ws_access>true</ws_access>
+        <x_58872_needit_category/>
         <x_58872_needit_date_time/>
+        <x_58872_needit_reference_field/>
+        <x_58872_needit_refernce/>
+        <x_58872_needit_subcategory/>
     </sys_db_object>
 </record_update>

@@ -76,7 +76,7 @@
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-19 15:03:36</sys_created_on>
-        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_db_object display_value="sys_ui_policy" name="sys_ui_policy">sys_ui_policy</sys_db_object>
         <sys_id>c5ddc71ea7b6492f91457e3e36a21499</sys_id>
         <sys_metadata>de1bca1c2f543010bd0754492799b671</sys_metadata>
         <sys_mod_count>0</sys_mod_count>

@@ -50,7 +50,7 @@
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-19 15:03:36</sys_created_on>
-        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_db_object display_value="sys_ui_policy_action" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
         <sys_id>31ac14f7a27a48d38f140afbc8dea6d9</sys_id>
         <sys_metadata>9a7ece9c2f543010bd0754492799b6e7</sys_metadata>
         <sys_mod_count>0</sys_mod_count>

@@ -113,7 +113,7 @@
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-18 13:19:24</sys_created_on>
-        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_db_object display_value="sys_script_client" name="sys_script_client">sys_script_client</sys_db_object>
         <sys_id>9f9ae5af94164ec09b103bfc87ae9000</sys_id>
         <sys_metadata>c48c68882f143010bd0754492799b634</sys_metadata>
         <sys_mod_count>0</sys_mod_count>

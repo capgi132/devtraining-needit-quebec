@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="file_root=true,no_labels=true,ref_ac_columns=name,ref_ac_columns_search=true,ref_auto_completer=AJAXTableCompleter,update_synch=true" extends="sys_metadata" label="Table" max_length="40" name="sys_db_object" sizeclass="4020" text_index="true" type="collection">
+    <element attributes="file_root=true,no_labels=true,ref_ac_columns=name,ref_ac_columns_search=true,ref_auto_completer=AJAXTableCompleter,update_synch=true" extends="sys_metadata" label="Table" max_length="40" name="sys_db_object" sizeclass="4021" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Category" max_length="40" name="x_58872_needit_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Parent 1" sequence="0" value="Parent 1"/>
+                <element inactive_on_update="false" label="Parent 2" sequence="1" value="Parent 2"/>
+                <element inactive_on_update="false" label="Parent 3" sequence="2" value="Parent 3"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Date  Time" max_length="40" name="x_58872_needit_date_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Reference Field" max_length="40" name="x_58872_needit_reference_field" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="test1" sequence="0" value="test1"/>
+                <element inactive_on_update="false" label="test 2" sequence="1" value="test 2"/>
+                <element inactive_on_update="false" label="test 3" sequence="2" value="test 3"/>
+                <element inactive_on_update="false" label="test 4" sequence="3" value="test 4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Refernce" max_length="40" name="x_58872_needit_refernce" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" dependent="x_58872_needit_category" dependent_on_field="x_58872_needit_category" label="SubCategory" max_length="40" name="x_58872_needit_subcategory" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Parent 1" inactive_on_update="false" label="child 1.1" sequence="0" value="child 1.1"/>
+                <element dependent_value="Parent 1" inactive_on_update="false" label="child 1.2" sequence="1" value="child 1.2"/>
+                <element dependent_value="Parent 1" inactive_on_update="false" label="child 1.3" sequence="2" value="child 1.3"/>
+                <element dependent_value="Parent 2" inactive_on_update="false" label="child 2.1" sequence="3" value="child 2.1"/>
+                <element dependent_value="Parent 2" inactive_on_update="false" label="child 2.2" sequence="4" value="child 2.2"/>
+                <element dependent_value="Parent 2" inactive_on_update="false" label="child 2.3" sequence="5" value="child 2.3"/>
+                <element dependent_value="Parent 3" inactive_on_update="false" label="child 3.1" sequence="6" value="child 3.1"/>
+                <element dependent_value="Parent 3" inactive_on_update="false" label="child 3.2" sequence="7" value="child 3.2"/>
+                <element dependent_value="Parent 3" inactive_on_update="false" label="child 3.3" sequence="8" value="child 3.3"/>
+            </choice>
+        </element>
     </element>
 </database>
